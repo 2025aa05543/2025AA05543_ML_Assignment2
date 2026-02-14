@@ -38,24 +38,13 @@ c. Models used and their metrics
 
 d. Observation of each model
 
-+------------------------------+--------------------------------------------------------------+
-| ML Model Name                | Observation about Model Performance                          |
-+------------------------------+--------------------------------------------------------------+
-| Logistic Regression          | Achieves high accuracy and AUC with good precision, but has  |
-|                              | moderate recall, indicating some positive cases are missed.  |
-+------------------------------+--------------------------------------------------------------+
-| Decision Tree                | Models non-linear relationships well with balanced precision |
-|                              | and recall, but shows lower generalization performance.      |
-+------------------------------+--------------------------------------------------------------+
-| kNN                          | Provides reasonable accuracy, but lower recall and F1 score  |
-|                              | indicate sensitivity to class imbalance and choice of k.    |
-+------------------------------+--------------------------------------------------------------+
-| Naive Bayes                  | Very high recall with low precision, meaning it detects most |
-|                              | positives but produces more false positives.                |
-+------------------------------+--------------------------------------------------------------+
-| Random Forest (Ensemble)     | Achieves high accuracy and AUC by combining multiple trees,  |
-|                              | reducing overfitting and improving robustness.              |
-+------------------------------+--------------------------------------------------------------+
-| XGBoost (Ensemble)           | Best-performing model with highest AUC, F1, and MCC, showing |
-|                              | excellent handling of complex patterns and imbalance.       |
-+------------------------------+--------------------------------------------------------------+
+| ML Model Name            | Observation about Model Performance                                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logistic Regression      | Achieves high accuracy and AUC with good precision, but has moderate recall, indicating that some positive cases are missed.                            |
+| Decision Tree            | Models non-linear relationships effectively with balanced precision and recall, but shows lower generalization performance compared to ensemble models. |
+| kNN                      | Provides reasonable accuracy, but lower recall and F1 score indicate sensitivity to class imbalance and the choice of k value.                          |
+| Naive Bayes              | Exhibits very high recall with low precision, meaning it detects most positive cases but produces more false positives.                                 |
+| Random Forest (Ensemble) | Achieves high accuracy and AUC by combining multiple trees, reducing overfitting and improving robustness.                                              |
+| XGBoost (Ensemble)       | Best-performing model with the highest AUC, F1 score, and MCC, indicating excellent handling of complex patterns and class imbalance.                   |
+
+
